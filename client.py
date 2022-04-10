@@ -47,4 +47,4 @@ message = [start_link, finish_link]
 sender_client = Client()
 [number, path] = sender_client.call(message)
 
-print(" [.] Got ", number, "There is a path: ", path)
+print(" [.] Got ", number-1 , "There is a path: ", path)
